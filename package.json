@@ -1,14 +1,14 @@
 {
-  "name": "testbananaserver",
+  "name": "testserverbanana",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# TestServerBanana\"",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DenZv95/TestServerBanana"
+    "url": "git+https://github.com/DenZv95/TestServerBanana.git"
   },
   "keywords": [],
   "author": "",
@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/DenZv95/TestServerBanana#readme",
   "dependencies": {
-    "apollo-server": "^3.6.3",
-    "apollo-server-core": "^3.6.3",
+    "apollo-server": "^3.6.6",
     "dotenv": "^16.0.0",
-    "mongoose": "^6.2.3",
+    "graphql": "^16.3.0",
+    "mongoose": "^6.2.8",
     "nodemon": "^2.0.15"
   }
 }
